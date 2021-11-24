@@ -1,0 +1,8 @@
+prefix=/home/rahul/localisation_ws/devel
+
+Name: uwb_and_imu
+Description: Description of uwb_and_imu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

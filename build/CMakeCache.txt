@@ -481,6 +481,12 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
 
 //Value Computed by CMake
+imu_and_uwb_BINARY_DIR:STATIC=/home/rahul/localisation_ws/build/imu_and_uwb
+
+//Value Computed by CMake
+imu_and_uwb_SOURCE_DIR:STATIC=/home/rahul/localisation_ws/src/imu_and_uwb
+
+//Value Computed by CMake
 imu_complementary_filter_BINARY_DIR:STATIC=/home/rahul/localisation_ws/build/imu_tools/imu_complementary_filter
 
 //Value Computed by CMake
@@ -503,6 +509,12 @@ imu_tools_BINARY_DIR:STATIC=/home/rahul/localisation_ws/build/imu_tools/imu_tool
 
 //Value Computed by CMake
 imu_tools_SOURCE_DIR:STATIC=/home/rahul/localisation_ws/src/imu_tools/imu_tools
+
+//Value Computed by CMake
+imu_uwb_fusion_BINARY_DIR:STATIC=/home/rahul/localisation_ws/build/imu_uwb_fusion
+
+//Value Computed by CMake
+imu_uwb_fusion_SOURCE_DIR:STATIC=/home/rahul/localisation_ws/src/imu_uwb_fusion
 
 //The directory containing a CMake configuration file for interactive_markers.
 interactive_markers_DIR:PATH=/opt/ros/melodic/share/interactive_markers/cmake
@@ -672,6 +684,12 @@ urdf_DIR:PATH=/opt/ros/melodic/share/urdf/cmake
 //The directory containing a CMake configuration file for uuid_msgs.
 uuid_msgs_DIR:PATH=/opt/ros/melodic/share/uuid_msgs/cmake
 
+//Value Computed by CMake
+uwb_and_imu_BINARY_DIR:STATIC=/home/rahul/localisation_ws/build/uwb_and_imu
+
+//Value Computed by CMake
+uwb_and_imu_SOURCE_DIR:STATIC=/home/rahul/localisation_ws/src/uwb_and_imu
+
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/melodic/share/visualization_msgs/cmake
 
@@ -816,7 +834,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
