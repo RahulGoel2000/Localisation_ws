@@ -7,6 +7,7 @@
 subdirs("gtest")
 subdirs("imu_tools/imu_tools")
 subdirs("imu_and_uwb")
+subdirs("imu_uwb_fusion_dual_ekf")
 subdirs("imu_tools/imu_complementary_filter")
 subdirs("imu_tools/imu_filter_madgwick")
 subdirs("robot_localization")

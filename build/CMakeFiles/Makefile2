@@ -986,6 +986,24 @@ clean: imu_and_uwb/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory imu_uwb_fusion_dual_ekf
+
+# Convenience name for "all" pass in the directory.
+imu_uwb_fusion_dual_ekf/all:
+
+.PHONY : imu_uwb_fusion_dual_ekf/all
+
+# Convenience name for "clean" pass in the directory.
+imu_uwb_fusion_dual_ekf/clean:
+
+.PHONY : imu_uwb_fusion_dual_ekf/clean
+
+# Convenience name for "preinstall" pass in the directory.
+imu_uwb_fusion_dual_ekf/preinstall:
+
+.PHONY : imu_uwb_fusion_dual_ekf/preinstall
+
+#=============================================================================
 # Directory level rules for directory imu_tools/imu_complementary_filter
 
 # Convenience name for "all" pass in the directory.
