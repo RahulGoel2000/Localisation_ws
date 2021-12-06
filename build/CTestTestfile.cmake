@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("imu_tools/imu_tools")
+subdirs("controller")
 subdirs("imu_and_uwb")
 subdirs("imu_uwb_fusion_dual_ekf")
 subdirs("imu_tools/imu_complementary_filter")

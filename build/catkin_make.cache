@@ -1,2 +1,2 @@
-imu_and_uwb:imu_tools/imu_complementary_filter:imu_tools/imu_filter_madgwick:imu_tools/imu_tools:imu_tools/rviz_imu_plugin:imu_uwb_fusion_dual_ekf:robot_localization:universal
+controller:imu_and_uwb:imu_tools/imu_complementary_filter:imu_tools/imu_filter_madgwick:imu_tools/imu_tools:imu_tools/rviz_imu_plugin:imu_uwb_fusion_dual_ekf:robot_localization:universal
 -DCATKIN_DEVEL_PREFIX=/home/rahul/localisation_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rahul/localisation_ws/install -G Unix Makefiles

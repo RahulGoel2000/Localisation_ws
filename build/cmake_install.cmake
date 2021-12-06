@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/rahul/localisation_ws/build/gtest/cmake_install.cmake")
   include("/home/rahul/localisation_ws/build/imu_tools/imu_tools/cmake_install.cmake")
+  include("/home/rahul/localisation_ws/build/controller/cmake_install.cmake")
   include("/home/rahul/localisation_ws/build/imu_and_uwb/cmake_install.cmake")
   include("/home/rahul/localisation_ws/build/imu_uwb_fusion_dual_ekf/cmake_install.cmake")
   include("/home/rahul/localisation_ws/build/imu_tools/imu_complementary_filter/cmake_install.cmake")
