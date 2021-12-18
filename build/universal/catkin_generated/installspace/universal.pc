@@ -1,0 +1,8 @@
+prefix=/home/rahul/localisation_ws/install
+
+Name: universal
+Description: Description of universal
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

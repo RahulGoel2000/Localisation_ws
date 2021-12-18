@@ -1,0 +1,8 @@
+prefix=/home/rahul/localisation_ws/install
+
+Name: imu_and_uwb
+Description: Description of imu_and_uwb
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

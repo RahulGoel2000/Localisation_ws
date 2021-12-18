@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization">
+        <rosparam command="load" file="$(find imu_and_uwb)/localization.yaml"/>
+    </node>
+
+</launch>
